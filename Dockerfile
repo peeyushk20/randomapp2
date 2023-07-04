@@ -32,5 +32,5 @@ COPY --from=build /app/out .
 EXPOSE 80
 
 # Run the application
-ENTRYPOINT ["dotnet", "Randomapp.dll"]
+ENTRYPOINT ["dotnet", "randomapp.dll"]
 
